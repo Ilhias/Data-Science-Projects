@@ -1,2 +1,2 @@
 # Data-Science-Projects
-Explore my diverse collection of projects showcasing machine learning, data analysis, and more. 
+Welcome to my Data Science Projects repository! Here you’ll find a curated collection of projects that showcase my skills in data analysis, machine learning, and data visualisation. Each project highlights practical applications of Python, R, SQL, and BI tools, with real-world datasets and clear, reproducible workflows. 
