@@ -6,7 +6,7 @@ library(janitor)
 library(bslib)
 library(stringr)
 library(tidyr)
- 
+
 # Data preprocessing
 covid <- read_csv("../../flatten-covid-19-survey-data-on-symptoms-demographics-and-mental-health-in-canada-1.0/Flatten_Data/schema_3_ontario_final.csv") %>%
   clean_names() %>%
