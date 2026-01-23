@@ -1,0 +1,39 @@
+Overview
+
+This project evaluates predictive modelling approaches for breast cancer tumour classification using structured health data. The focus is on model evaluation, risk trade-offs, and interpretability, rather than maximising accuracy alone, reflecting considerations commonly required in health and government analytics settings.
+
+Data
+
+Wisconsin Breast Cancer Dataset (scikit-learn)
+
+569 observations, 30 numeric features
+
+Binary outcome: malignant vs benign
+
+Note: This dataset is clean and does not fully reflect the complexity of real-world clinical data.
+
+Approach
+
+Stratified train/validation/test split
+
+Leakage-safe feature scaling using StandardScaler
+
+Artificial Neural Network (ANN) with hyperparameter tuning
+
+Performance evaluated using confusion matrices and classification metrics
+
+Key findings
+
+The ANN achieved strong overall accuracy on the test set (~95%)
+
+Recall for malignant cases was prioritised due to higher clinical risk of false negatives
+
+Perfect validation accuracy highlighted the limitations of small validation samples
+
+Interpretation & limitations
+
+While ANNs can achieve high performance, their lack of transparency limits suitability in many clinical and policy contexts
+
+Simpler, interpretable models may be preferred where explainability and governance requirements outweigh marginal performance gains
+
+Results should not be interpreted as clinically deployable without further validation
